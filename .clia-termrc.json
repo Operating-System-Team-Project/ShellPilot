@@ -1,0 +1,19 @@
+{
+  "assistant": {
+    "provider": "ollama",
+    "model": "mistral",
+    "baseUrl": "http://localhost:11434"
+  },
+  "keybindings": {
+    "suggestionNext": ["down"],
+    "suggestionPrev": ["up"]
+  },
+  "aliases": {
+    "commands": {
+      "?": "help"
+    },
+    "keybindings": {
+      "ctrl+c": "exit"
+    }
+  }
+}

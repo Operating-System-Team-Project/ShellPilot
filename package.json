@@ -1,0 +1,36 @@
+{
+  "name": "clia-term",
+  "version": "0.1.0",
+  "description": "Interactive shell with explicit LLM command explanations",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "clia-term": "dist/index.js"
+  },
+  "scripts": {
+    "start": "tsx src/index.tsx",
+    "dev": "tsx src/index.tsx",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "cli",
+    "ink",
+    "terminal",
+    "react"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ink": "^5.2.1",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.16",
+    "@types/react": "^18.3.23",
+    "tsx": "^4.20.6",
+    "typescript": "^5.8.3"
+  }
+}
