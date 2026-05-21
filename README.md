@@ -24,6 +24,14 @@ npm install
 npm run start
 ```
 
+## Demo
+
+![CLIA-term demo screen 1](./docs/images/1.png)
+
+![CLIA-term demo screen 2](./docs/images/2.png)
+
+![CLIA-term demo screen 3](./docs/images/3.png)
+
 ## CLI Help
 
 ```bash
